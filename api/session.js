@@ -9,7 +9,6 @@ module.exports = session({
     maxAge: 1000 * 60 * 10,
     secure: process.env.COOKIE_SECURE || false,
     httpOnly: true,
-    domain: "localhost",
   },
   resave: false,
   saveUninitialized: true,
